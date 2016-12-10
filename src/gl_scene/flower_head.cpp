@@ -8,7 +8,7 @@
 Flower_head::Flower_head() {
 
     //  scale *= 10.0f;
-    scale /=15.0f;
+    scale /=33.0f;
     rotation = glm::vec3(4.7f, 0.0f, 0.0f);
 
     // Initialize static resources if needed
@@ -22,8 +22,9 @@ Flower_head::~Flower_head() {
 
 bool Flower_head::Update(Scene &scene, float dt) {
     // Count time alive
-
-
+    age += dt;
+    if (age < maxAge)
+    scale += dt*0.01;
     // Generate modelMatrix from position, rotation and scale
     GenerateModelMatrix();
 

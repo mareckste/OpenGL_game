@@ -18,5 +18,7 @@ private:
     static MeshPtr mesh;
     static ShaderPtr shader;
     static TexturePtr texture;
+    float age = 0;
+    const float maxAge = 5.0;
 };
 typedef std::shared_ptr< Flower_head > Flower_headPtr;
