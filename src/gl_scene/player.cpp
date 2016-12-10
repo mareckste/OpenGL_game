@@ -24,7 +24,7 @@ Player::Player() {
 
   // Initialize static resources if needed
   if (!shader) shader = ShaderPtr(new Shader{object_vert, object_frag});
-  if (!texture) texture = TexturePtr(new Texture{"corsair.rgb", 256, 512});
+  if (!texture) texture = TexturePtr(new Texture{"bee_body_c.rgb", 1280, 960});
   if (!mesh) mesh = MeshPtr(new Mesh{shader, "bee_body.obj"});
 }
 
@@ -47,6 +47,7 @@ bool Player::Update(Scene &scene, float dt) {
 
       if ((fabs(flower->position.x - position.x) < .8) && (fabs(flower->position.y - position.y) < .8) ) {
           // Explode
+
           auto explosion = ExplosionPtr(new Explosion{});
           explosion->position = this->position;
           explosion->scale *=  1.5f;

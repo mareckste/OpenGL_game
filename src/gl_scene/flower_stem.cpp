@@ -24,7 +24,7 @@ bool Flower_stem::Update(Scene &scene, float dt) {
     // Count time alive
     age += dt;
     if (age < maxAge)
-        scale += dt*0.01;
+       scale += dt*0.02;
     // Generate modelMatrix from position, rotation and scale
     GenerateModelMatrix();
 

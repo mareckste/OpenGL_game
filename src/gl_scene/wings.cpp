@@ -25,7 +25,7 @@ Wings::Wings() {
 
     // Initialize static resources if needed
     if (!shader) shader = ShaderPtr(new Shader{object_vert, object_frag});
-    if (!texture) texture = TexturePtr(new Texture{"corsair.rgb", 256, 512});
+    if (!texture) texture = TexturePtr(new Texture{"wings_c.rgb", 600, 600});
     if (!mesh) mesh = MeshPtr(new Mesh{shader, "bee_wing.obj"});
 }
 

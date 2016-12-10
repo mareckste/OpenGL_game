@@ -8,7 +8,7 @@ bool Generator::Update(Scene &scene, float dt) {
   time += dt;
 
   // Add object to scene when time reaches certain level
-  if (time > 2) {
+  if ( time > 2 && generated < 5) {
       generated++;
     auto obj = Flower_headPtr(new Flower_head());
     obj->position = this->position;
@@ -24,8 +24,9 @@ bool Generator::Update(Scene &scene, float dt) {
     //obj1->position.y += Rand(-20, 20);
     scene.objects.push_back(obj1);
     time = 0;
+
   }
-  if (generated == 5) return false;
+
   return true;
 }
 
