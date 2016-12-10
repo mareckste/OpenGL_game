@@ -849,6 +849,33 @@ src/gl_scene/space.cpp.s:
 	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/space.cpp.s
 .PHONY : src/gl_scene/space.cpp.s
 
+src/gl_scene/watering_can.obj: src/gl_scene/watering_can.cpp.obj
+
+.PHONY : src/gl_scene/watering_can.obj
+
+# target to build an object file
+src/gl_scene/watering_can.cpp.obj:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj
+.PHONY : src/gl_scene/watering_can.cpp.obj
+
+src/gl_scene/watering_can.i: src/gl_scene/watering_can.cpp.i
+
+.PHONY : src/gl_scene/watering_can.i
+
+# target to preprocess a source file
+src/gl_scene/watering_can.cpp.i:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.i
+.PHONY : src/gl_scene/watering_can.cpp.i
+
+src/gl_scene/watering_can.s: src/gl_scene/watering_can.cpp.s
+
+.PHONY : src/gl_scene/watering_can.s
+
+# target to generate assembly for a file
+src/gl_scene/watering_can.cpp.s:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.s
+.PHONY : src/gl_scene/watering_can.cpp.s
+
 src/gl_scene/wings.obj: src/gl_scene/wings.cpp.obj
 
 .PHONY : src/gl_scene/wings.obj
@@ -1149,6 +1176,9 @@ help:
 	@echo ... src/gl_scene/space.obj
 	@echo ... src/gl_scene/space.i
 	@echo ... src/gl_scene/space.s
+	@echo ... src/gl_scene/watering_can.obj
+	@echo ... src/gl_scene/watering_can.i
+	@echo ... src/gl_scene/watering_can.s
 	@echo ... src/gl_scene/wings.obj
 	@echo ... src/gl_scene/wings.i
 	@echo ... src/gl_scene/wings.s

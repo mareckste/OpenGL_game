@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/projectile.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/scene.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/space.cpp.obj"
+  "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/watering_can.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/wings.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/wings.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

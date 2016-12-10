@@ -149,7 +149,7 @@ set(GL_SCENE_SRC
         src/gl_scene/player.cpp
         src/gl_scene/projectile.cpp
         src/gl_scene/explosion.cpp
-        src/gl_scene/space.cpp src/gl_scene/field.h src/gl_scene/field.cpp src src/gl_scene/flower_stem.h src/gl_scene/flower_stem.cpp src/gl_scene/flower_head.h src/gl_scene/flower_head.cpp src/gl_scene/wings.cpp src/gl_scene/wings.h)
+        src/gl_scene/space.cpp src/gl_scene/field.h src/gl_scene/field.cpp src src/gl_scene/flower_stem.h src/gl_scene/flower_stem.cpp src/gl_scene/flower_head.h src/gl_scene/flower_head.cpp src/gl_scene/wings.cpp src/gl_scene/wings.h src/gl_scene/watering_can.cpp src/gl_scene/watering_can.h)
 generate_shaders(GL_SCENE_SHADERS
         src/gl_scene/space_frag.glsl
         src/gl_scene/space_vert.glsl

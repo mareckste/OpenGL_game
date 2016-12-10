@@ -15,9 +15,12 @@ public:
 
   bool Update(Scene &scene, float dt) override;
   void Render(Scene &scene) override;
+  void generateFlowers(Scene &scene);
 
   float time;
   int generated = 0;
+    int flowers = 0;
+    int flowers_history = 0;
 };
 typedef std::shared_ptr< Generator > GeneratorPtr;
 

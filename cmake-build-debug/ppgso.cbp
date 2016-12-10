@@ -794,6 +794,12 @@
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.h">
 			<Option target="gl_scene"/>
 		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/watering_can.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/watering_can.h">
+			<Option target="gl_scene"/>
+		</Unit>
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/wings.cpp">
 			<Option target="gl_scene"/>
 		</Unit>

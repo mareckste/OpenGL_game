@@ -24,7 +24,7 @@
 #include "flower_head.h"
 #include "space.h"
 
-const unsigned int SIZE = 800;
+const unsigned int SIZE = 1200;
 
 Scene scene;
 CameraPtr camera;
@@ -36,7 +36,7 @@ void InitializeScene() {
   // Create a camera
   camera = CameraPtr(new Camera{ 60.0f, 1.0f, 0.1f, 100.0f});
   camera->position.z = -15.0f;
-    camera->position.y += 5.0f;
+    camera->position.y += 3.0f;
   scene.camera = camera;
 
   // Add space background
@@ -56,8 +56,7 @@ void InitializeScene() {
   scene.objects.push_back(player);
 
 auto wings = WingsPtr(new Wings{});
-    wings->position.y = -6;
-    wings->position.z = -12.75f;
+    wings->position = player->position;
     scene.objects.push_back(wings);
 
  auto field = FieldPtr(new Field{});
@@ -110,7 +109,7 @@ int main() {
   glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
   // Try to create a window
-  auto window = glfwCreateWindow(SIZE, SIZE, "PPGSO gl_scene", nullptr, nullptr);
+  auto window = glfwCreateWindow(1000, 1000, "PPGSO gl_scene", nullptr, nullptr);
   if (!window) {
     std::cerr << "Failed to open GLFW window, your graphics card is probably only capable of OpenGL 2.1" << std::endl;
     glfwTerminate();

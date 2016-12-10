@@ -1,7 +1,8 @@
 #include "flower_head.h"
 #include "scene.h"
 
-
+#include "explosion.h"
+#include "player.h"
 #include "object_frag.h"
 #include "object_vert.h"
 
@@ -24,8 +25,32 @@ bool Flower_head::Update(Scene &scene, float dt) {
     // Count time alive
     age += dt;
     if (age < maxAge)
-    scale += dt*0.02;
+         scale += dt*0.02;
     // Generate modelMatrix from position, rotation and scale
+
+
+    for ( auto obj : scene.objects ) {
+        // Ignore self in scene
+        if (obj.get() == this)
+            continue;
+
+        // We only need to collide with flowers, ignore other objects
+        auto player = std::dynamic_pointer_cast<Player>(obj);
+        if (!player) continue;
+
+        if ((fabs(player->position.x - position.x) < .8) && (fabs(player->position.y - position.y) < .8)  ) {
+            // Explode
+
+            auto explosion = ExplosionPtr(new Explosion{});
+            explosion->position = this->position;
+            explosion->scale *=  1.5f;
+            scene.objects.push_back(explosion);
+            return false;
+        }
+    }
+
+
+
     GenerateModelMatrix();
 
     return true;
