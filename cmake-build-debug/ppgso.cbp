@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ppgso"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="run_install">
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 run_install"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_projection">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_projection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_projection"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_projection/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_projection.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_projection/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_mesh">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_mesh.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_mesh"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_mesh/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_mesh.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_mesh/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_animate">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_animate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_animate"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_animate/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_animate.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_animate/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raw_gradient">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/raw_gradient.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 raw_gradient"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="raw_gradient/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/raw_gradient.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 raw_gradient/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libppgso">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/liblibppgso.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 libppgso"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libppgso/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/liblibppgso.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 libppgso/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_gradient">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_gradient.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_gradient"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_gradient/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_gradient.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_gradient/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_texture">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_texture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_texture"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_texture/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_texture.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_texture/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_transform">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_transform.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_transform"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_transform/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_transform.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_transform/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_scene">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_scene.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_scene"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_scene/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_scene.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_scene/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_framebuffer">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_framebuffer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_framebuffer"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gl_framebuffer/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/gl_framebuffer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 gl_framebuffer/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvicenie_6">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/cvicenie_6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 cvicenie_6"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cvicenie_6/fast">
+				<Option output="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/cvicenie_6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DGLM_FORCE_RADIANS"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/dependencies/include"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master"/>
+					<Add directory="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../include"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"/>
+					<Add directory="C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/5.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 cvicenie_6/fast"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/TDM-GCC-64/bin/mingw32-make.exe -f &quot;C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/cvicenie_6/cvicenie_6.cpp">
+			<Option target="cvicenie_6"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_animate/gl_animate.cpp">
+			<Option target="gl_animate"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_framebuffer/gl_framebuffer.cpp">
+			<Option target="gl_framebuffer"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_gradient/gl_gradient.cpp">
+			<Option target="gl_gradient"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_mesh/gl_mesh.cpp">
+			<Option target="gl_mesh"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_projection/gl_projection.cpp">
+			<Option target="gl_projection"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_projection/surface.cpp">
+			<Option target="gl_projection"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_projection/surface.h">
+			<Option target="gl_projection"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/camera.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/camera.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/explosion.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/explosion.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/field.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/field.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_head.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_head.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_stem.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_stem.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/generator.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/generator.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/gl_scene.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/player.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/player.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/wings.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/wings.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_texture/gl_texture.cpp">
+			<Option target="gl_texture"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_transform/gl_transform.cpp">
+			<Option target="gl_transform"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib/mesh.cpp">
+			<Option target="libppgso"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib/mesh.h">
+			<Option target="libppgso"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib/shader.cpp">
+			<Option target="libppgso"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib/shader.h">
+			<Option target="libppgso"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib/texture.cpp">
+			<Option target="libppgso"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib/texture.h">
+			<Option target="libppgso"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib/tiny_obj_loader.cpp">
+			<Option target="libppgso"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/lib/tiny_obj_loader.h">
+			<Option target="libppgso"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/raw_gradient/raw_gradient.cpp">
+			<Option target="raw_gradient"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake/shaders.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake/FindGLFW3.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake/FindGLM.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

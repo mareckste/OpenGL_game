@@ -1,0 +1,2 @@
+C:\TDM-GCC-64\bin\ar.exe qc liblibppgso.a  CMakeFiles/libppgso.dir/src/lib/mesh.cpp.obj CMakeFiles/libppgso.dir/src/lib/tiny_obj_loader.cpp.obj CMakeFiles/libppgso.dir/src/lib/shader.cpp.obj CMakeFiles/libppgso.dir/src/lib/texture.cpp.obj
+C:\TDM-GCC-64\bin\ranlib.exe liblibppgso.a
