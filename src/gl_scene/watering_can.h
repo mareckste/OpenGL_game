@@ -22,10 +22,9 @@ private:
     float walkTime = 0.0f;
     int walkPointer = 0;
     glm::vec3 walkPath[4];
+
     static MeshPtr mesh;
     static ShaderPtr shader;
     static TexturePtr texture;
-    float age = 0;
-    const float maxAge = 2.3f;
 };
 typedef std::shared_ptr< watering_can > CanPtr;

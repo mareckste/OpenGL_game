@@ -16,7 +16,7 @@ Explosion::Explosion() {
 
   // Initialize static resources if needed
   if (!shader) shader = ShaderPtr(new Shader{explosion_vert, explosion_frag});
-  if (!texture) texture = TexturePtr(new Texture{"explosion.rgb", 512, 512});
+  if (!texture) texture = TexturePtr(new Texture{"rainbow.rgb", 1920, 1200});
   if (!mesh) mesh = MeshPtr(new Mesh{shader, "asteroid.obj"});
 }
 

@@ -205,29 +205,29 @@ CMakeFiles/gl_scene.dir/src/gl_scene/generator.cpp.obj.provides: CMakeFiles/gl_s
 CMakeFiles/gl_scene.dir/src/gl_scene/generator.cpp.obj.provides.build: CMakeFiles/gl_scene.dir/src/gl_scene/generator.cpp.obj
 
 
-CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj: CMakeFiles/gl_scene.dir/flags.make
-CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj: CMakeFiles/gl_scene.dir/includes_CXX.rsp
-CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj: ../src/gl_scene/player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj"
-	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl_scene.dir\src\gl_scene\player.cpp.obj -c C:\Users\stevu\Downloads\ppgso-master\ppgso-master\src\gl_scene\player.cpp
+CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj: CMakeFiles/gl_scene.dir/flags.make
+CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj: CMakeFiles/gl_scene.dir/includes_CXX.rsp
+CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj: ../src/gl_scene/body.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl_scene.dir\src\gl_scene\body.cpp.obj -c C:\Users\stevu\Downloads\ppgso-master\ppgso-master\src\gl_scene\body.cpp
 
-CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.i"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\stevu\Downloads\ppgso-master\ppgso-master\src\gl_scene\player.cpp > CMakeFiles\gl_scene.dir\src\gl_scene\player.cpp.i
+CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\stevu\Downloads\ppgso-master\ppgso-master\src\gl_scene\body.cpp > CMakeFiles\gl_scene.dir\src\gl_scene\body.cpp.i
 
-CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.s"
-	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\stevu\Downloads\ppgso-master\ppgso-master\src\gl_scene\player.cpp -o CMakeFiles\gl_scene.dir\src\gl_scene\player.cpp.s
+CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\stevu\Downloads\ppgso-master\ppgso-master\src\gl_scene\body.cpp -o CMakeFiles\gl_scene.dir\src\gl_scene\body.cpp.s
 
-CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj.requires:
+CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj.requires:
 
-.PHONY : CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj.requires
+.PHONY : CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj.requires
 
-CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj.provides: CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj.provides.build
-.PHONY : CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj.provides
+CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj.provides: CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj.provides.build
+.PHONY : CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj.provides
 
-CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj.provides.build: CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj
+CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj.provides.build: CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj
 
 
 CMakeFiles/gl_scene.dir/src/gl_scene/explosion.cpp.obj: CMakeFiles/gl_scene.dir/flags.make
@@ -380,6 +380,31 @@ CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj.provides: CMakeFiles/g
 CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj.provides.build: CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj
 
 
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: CMakeFiles/gl_scene.dir/flags.make
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: CMakeFiles/gl_scene.dir/includes_CXX.rsp
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/bee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj"
+	C:\TDM-GCC-64\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gl_scene.dir\src\gl_scene\bee.cpp.obj -c C:\Users\stevu\Downloads\ppgso-master\ppgso-master\src\gl_scene\bee.cpp
+
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.i"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\stevu\Downloads\ppgso-master\ppgso-master\src\gl_scene\bee.cpp > CMakeFiles\gl_scene.dir\src\gl_scene\bee.cpp.i
+
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.s"
+	C:\TDM-GCC-64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\stevu\Downloads\ppgso-master\ppgso-master\src\gl_scene\bee.cpp -o CMakeFiles\gl_scene.dir\src\gl_scene\bee.cpp.s
+
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj.requires:
+
+.PHONY : CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj.requires
+
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj.provides: CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj.provides.build
+.PHONY : CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj.provides
+
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj.provides.build: CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj
+
+
 # Object files for target gl_scene
 gl_scene_OBJECTS = \
 "CMakeFiles/gl_scene.dir/src/gl_scene/gl_scene.cpp.obj" \
@@ -387,13 +412,14 @@ gl_scene_OBJECTS = \
 "CMakeFiles/gl_scene.dir/src/gl_scene/scene.cpp.obj" \
 "CMakeFiles/gl_scene.dir/src/gl_scene/camera.cpp.obj" \
 "CMakeFiles/gl_scene.dir/src/gl_scene/generator.cpp.obj" \
-"CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj" \
+"CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj" \
 "CMakeFiles/gl_scene.dir/src/gl_scene/explosion.cpp.obj" \
 "CMakeFiles/gl_scene.dir/src/gl_scene/field.cpp.obj" \
 "CMakeFiles/gl_scene.dir/src/gl_scene/flower_stem.cpp.obj" \
 "CMakeFiles/gl_scene.dir/src/gl_scene/flower_head.cpp.obj" \
 "CMakeFiles/gl_scene.dir/src/gl_scene/wings.cpp.obj" \
-"CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj"
+"CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj" \
+"CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj"
 
 # External object files for target gl_scene
 gl_scene_EXTERNAL_OBJECTS =
@@ -403,13 +429,14 @@ gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/object.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/scene.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/camera.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/generator.cpp.obj
-gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj
+gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/explosion.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/field.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/flower_stem.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/flower_head.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/wings.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj
+gl_scene.exe: CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj
 gl_scene.exe: CMakeFiles/gl_scene.dir/build.make
 gl_scene.exe: liblibppgso.a
 gl_scene.exe: ../dependencies/lib/mingw/libglfw3.a
@@ -417,7 +444,7 @@ gl_scene.exe: ../dependencies/lib/mingw/libglew32.a
 gl_scene.exe: CMakeFiles/gl_scene.dir/linklibs.rsp
 gl_scene.exe: CMakeFiles/gl_scene.dir/objects1.rsp
 gl_scene.exe: CMakeFiles/gl_scene.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable gl_scene.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable gl_scene.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gl_scene.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -430,13 +457,14 @@ CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/object.cp
 CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/scene.cpp.obj.requires
 CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/camera.cpp.obj.requires
 CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/generator.cpp.obj.requires
-CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj.requires
+CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj.requires
 CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/explosion.cpp.obj.requires
 CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/field.cpp.obj.requires
 CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/flower_stem.cpp.obj.requires
 CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/flower_head.cpp.obj.requires
 CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/wings.cpp.obj.requires
 CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj.requires
+CMakeFiles/gl_scene.dir/requires: CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj.requires
 
 .PHONY : CMakeFiles/gl_scene.dir/requires
 

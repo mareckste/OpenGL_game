@@ -2,13 +2,10 @@
 #include "scene.h"
 #include "object_frag.h"
 #include "object_vert.h"
-#include "flower_head.h"
-
-#include <GLFW/glfw3.h>
 
 Wings::Wings() {
     position.z = -9.8f;
-    // Reset fire delay
+
 
     // Scale the default model
     scale *= 65.0f;
@@ -24,49 +21,7 @@ Wings::~Wings() {
 }
 
 bool Wings::Update(Scene &scene, float dt) {
-    // Fire delay increment
-    time += dt;
-    int flowers;
-    for ( auto obj : scene.objects ) {
-        // Ignore self in scene
-        if (obj.get() == this)
-            continue;
 
-        // We only need to collide with flowers, ignore other objects
-        auto flower = std::dynamic_pointer_cast<Flower_head>(obj);
-        if (!flower) continue;
-
-        flowers++;
-    }
-
-    if (!flowers) return false;
-
-    // Keyboard controls
-    if(scene.keyboard[GLFW_KEY_LEFT] && position.x <= 9 ) {
-        position.x += 5 * dt;
-        rotation.z = -PI/4.0f;
-    } else if(scene.keyboard[GLFW_KEY_RIGHT] && position.x >= -9) {
-        position.x -= 5 * dt;
-        rotation.z = PI/4.0f;
-    } else if(scene.keyboard[GLFW_KEY_UP]&& position.y <= 10) {
-        position.y += 5 * dt;
-    }else if(scene.keyboard[GLFW_KEY_DOWN]&& position.y >= -10) {
-        position.y -= 5 * dt;
-    } else {
-        rotation.z = 0;
-    }
-
-    if (time > .05) {
-        //const int offst = 2;
-        if (flip) {
-            rotation.z = -PI / 8.0f;
-            flip = false;
-        } else {
-            rotation.z = +PI / 8.0f;
-            flip = true;
-        }
-        time = 0;
-    }
 
     GenerateModelMatrix();
     return true;

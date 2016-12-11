@@ -719,6 +719,18 @@
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_projection/surface.h">
 			<Option target="gl_projection"/>
 		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/bee.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/bee.h">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/body.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/body.h">
+			<Option target="gl_scene"/>
+		</Unit>
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/camera.cpp">
 			<Option target="gl_scene"/>
 		</Unit>
@@ -762,12 +774,6 @@
 			<Option target="gl_scene"/>
 		</Unit>
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.h">
-			<Option target="gl_scene"/>
-		</Unit>
-		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/player.cpp">
-			<Option target="gl_scene"/>
-		</Unit>
-		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/player.h">
 			<Option target="gl_scene"/>
 		</Unit>
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.cpp">

@@ -17,8 +17,9 @@
 #include "scene.h"
 #include "field.h"
 #include "generator.h"
-#include "player.h"
+#include "body.h"
 #include "wings.h"
+#include "bee.h"
 
 
 const unsigned int SIZE = 1200;
@@ -44,15 +45,10 @@ void InitializeScene() {
     scene.objects.push_back(generator);
 
     // Add player to the scene
-    auto player = PlayerPtr(new Player{});
-    player->position.y = -6;
-    player->position.z = -12.75f;
+    auto player = BeePtr(new bee{-6, -12.75f});
     scene.objects.push_back(player);
 
-    auto wings = WingsPtr(new Wings{});
-    wings->position = player->position;
-    scene.objects.push_back(wings);
-
+    // Add surface to the scene
     auto field = FieldPtr(new Field{});
     field->position.x = 0;
     field->position.y = 0;
@@ -149,7 +145,7 @@ int main() {
       time = (float)glfwGetTime();
 
       // Set gray background
-      glClearColor(.5f,.5f,.5f,0);
+      glClearColor(.50f,.50f,.50f,0);
       // Clear depth and color buffers
       glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 

@@ -2,9 +2,9 @@
 #include "scene.h"
 
 #include "explosion.h"
-#include "player.h"
 #include "object_frag.h"
 #include "object_vert.h"
+#include "bee.h"
 
 Flower_head::Flower_head() {
 
@@ -35,7 +35,7 @@ bool Flower_head::Update(Scene &scene, float dt) {
             continue;
 
         // We only need to collide with flowers, ignore other objects
-        auto player = std::dynamic_pointer_cast<Player>(obj);
+        auto player = std::dynamic_pointer_cast<bee>(obj);
         if (!player) continue;
 
         if ((fabs(player->position.x - position.x) < .8) && (fabs(player->position.y - position.y) < .8)  ) {

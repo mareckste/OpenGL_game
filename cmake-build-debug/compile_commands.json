@@ -86,8 +86,8 @@
 },
 {
   "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
-  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\player.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\player.cpp",
-  "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/player.cpp"
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\body.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\body.cpp",
+  "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/body.cpp"
 },
 {
   "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
@@ -118,6 +118,11 @@
   "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
   "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\watering_can.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\watering_can.cpp",
   "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/watering_can.cpp"
+},
+{
+  "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\bee.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\bee.cpp",
+  "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/bee.cpp"
 },
 {
   "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",

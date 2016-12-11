@@ -498,6 +498,60 @@ src/gl_projection/surface.cpp.s:
 	$(MAKE) -f CMakeFiles\gl_projection.dir\build.make CMakeFiles/gl_projection.dir/src/gl_projection/surface.cpp.s
 .PHONY : src/gl_projection/surface.cpp.s
 
+src/gl_scene/bee.obj: src/gl_scene/bee.cpp.obj
+
+.PHONY : src/gl_scene/bee.obj
+
+# target to build an object file
+src/gl_scene/bee.cpp.obj:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj
+.PHONY : src/gl_scene/bee.cpp.obj
+
+src/gl_scene/bee.i: src/gl_scene/bee.cpp.i
+
+.PHONY : src/gl_scene/bee.i
+
+# target to preprocess a source file
+src/gl_scene/bee.cpp.i:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.i
+.PHONY : src/gl_scene/bee.cpp.i
+
+src/gl_scene/bee.s: src/gl_scene/bee.cpp.s
+
+.PHONY : src/gl_scene/bee.s
+
+# target to generate assembly for a file
+src/gl_scene/bee.cpp.s:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.s
+.PHONY : src/gl_scene/bee.cpp.s
+
+src/gl_scene/body.obj: src/gl_scene/body.cpp.obj
+
+.PHONY : src/gl_scene/body.obj
+
+# target to build an object file
+src/gl_scene/body.cpp.obj:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj
+.PHONY : src/gl_scene/body.cpp.obj
+
+src/gl_scene/body.i: src/gl_scene/body.cpp.i
+
+.PHONY : src/gl_scene/body.i
+
+# target to preprocess a source file
+src/gl_scene/body.cpp.i:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.i
+.PHONY : src/gl_scene/body.cpp.i
+
+src/gl_scene/body.s: src/gl_scene/body.cpp.s
+
+.PHONY : src/gl_scene/body.s
+
+# target to generate assembly for a file
+src/gl_scene/body.cpp.s:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.s
+.PHONY : src/gl_scene/body.cpp.s
+
 src/gl_scene/camera.obj: src/gl_scene/camera.cpp.obj
 
 .PHONY : src/gl_scene/camera.obj
@@ -713,33 +767,6 @@ src/gl_scene/object.s: src/gl_scene/object.cpp.s
 src/gl_scene/object.cpp.s:
 	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/object.cpp.s
 .PHONY : src/gl_scene/object.cpp.s
-
-src/gl_scene/player.obj: src/gl_scene/player.cpp.obj
-
-.PHONY : src/gl_scene/player.obj
-
-# target to build an object file
-src/gl_scene/player.cpp.obj:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj
-.PHONY : src/gl_scene/player.cpp.obj
-
-src/gl_scene/player.i: src/gl_scene/player.cpp.i
-
-.PHONY : src/gl_scene/player.i
-
-# target to preprocess a source file
-src/gl_scene/player.cpp.i:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.i
-.PHONY : src/gl_scene/player.cpp.i
-
-src/gl_scene/player.s: src/gl_scene/player.cpp.s
-
-.PHONY : src/gl_scene/player.s
-
-# target to generate assembly for a file
-src/gl_scene/player.cpp.s:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.s
-.PHONY : src/gl_scene/player.cpp.s
 
 src/gl_scene/scene.obj: src/gl_scene/scene.cpp.obj
 
@@ -1056,6 +1083,12 @@ help:
 	@echo ... src/gl_projection/surface.obj
 	@echo ... src/gl_projection/surface.i
 	@echo ... src/gl_projection/surface.s
+	@echo ... src/gl_scene/bee.obj
+	@echo ... src/gl_scene/bee.i
+	@echo ... src/gl_scene/bee.s
+	@echo ... src/gl_scene/body.obj
+	@echo ... src/gl_scene/body.i
+	@echo ... src/gl_scene/body.s
 	@echo ... src/gl_scene/camera.obj
 	@echo ... src/gl_scene/camera.i
 	@echo ... src/gl_scene/camera.s
@@ -1080,9 +1113,6 @@ help:
 	@echo ... src/gl_scene/object.obj
 	@echo ... src/gl_scene/object.i
 	@echo ... src/gl_scene/object.s
-	@echo ... src/gl_scene/player.obj
-	@echo ... src/gl_scene/player.i
-	@echo ... src/gl_scene/player.s
 	@echo ... src/gl_scene/scene.obj
 	@echo ... src/gl_scene/scene.i
 	@echo ... src/gl_scene/scene.s
