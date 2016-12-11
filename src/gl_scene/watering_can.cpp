@@ -5,9 +5,8 @@
 #include "bee.h"
 #include "object_frag.h"
 #include "object_vert.h"
-#include "flower_stem.h"
-#include "flower_head.h"
 #include "generator.h"
+#include "Flower.h"
 
 watering_can::watering_can(glm::vec3 wp[4]) {
     walkPath[0] = wp[0]; walkPath[1] = wp[1]; walkPath[2] = wp[2]; walkPath[3] = wp[3];
@@ -84,18 +83,8 @@ void watering_can::Render(Scene &scene) {
 
 void watering_can::generateFlowers(Scene &scene) {
 
-    auto obj = Flower_headPtr(new Flower_head());
-    obj->position = glm::vec3(0,0,0);
-    obj->position.x += Rand(-9, 9); obj->position.y += Rand(-6.5f,9);
-    obj->position.z = -7;
+    auto obj = FlowerPtr(new Flower(Rand(-9, 9),Rand(-6.5f,9), -7));
     scene.objects.push_back(obj);
-
-    auto obj1 = Flower_stemPtr(new Flower_stem());
-    obj1->position = glm::vec3(0,0,0);
-    obj1->position.x = obj->position.x;
-    obj1->position.y = obj->position.y;
-    obj1->position.z = -7;
-    scene.objects.push_back(obj1);
 
 }
 

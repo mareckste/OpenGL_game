@@ -17,8 +17,6 @@
 #include "scene.h"
 #include "field.h"
 #include "generator.h"
-#include "body.h"
-#include "wings.h"
 #include "bee.h"
 
 

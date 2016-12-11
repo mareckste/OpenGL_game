@@ -5,7 +5,7 @@
 #include "bee.h"
 #include "scene.h"
 #include <GLFW/glfw3.h>
-#include "flower_head.h"
+#include "Flower.h"
 
 
 bee::bee(float y, float z) {
@@ -88,8 +88,8 @@ bool bee::isFlower(Scene &scene) {
              continue;
 
          // We only need to collide with flowers, ignore other objects
-         auto flower = std::dynamic_pointer_cast<Flower_head>(obj);
-         if (!flower) continue;
+         auto flow = std::dynamic_pointer_cast<Flower>(obj);
+         if (!flow) continue;
 
          flowers++;
     }

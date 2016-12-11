@@ -13,12 +13,10 @@ public:
     void Render(Scene &scene) override;
 
 private:
-    // float offset;
-    // Static resources (Shared between instances)
+
     static MeshPtr mesh;
     static ShaderPtr shader;
     static TexturePtr texture;
-    float age = 0;
-    const float maxAge = 2.3f;
+
 };
 typedef std::shared_ptr< Flower_stem > Flower_stemPtr;

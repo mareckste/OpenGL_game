@@ -18,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gl_scene.dir/src/gl_scene/wings.cpp.obj"
   "CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj"
   "CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj"
+  "CMakeFiles/gl_scene.dir/src/gl_scene/Flower.cpp.obj"
   "gl_scene.pdb"
   "gl_scene.exe"
   "gl_scene.exe.manifest"

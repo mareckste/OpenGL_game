@@ -1,7 +1,6 @@
 #include "generator.h"
-#include "flower_head.h"
-#include "flower_stem.h"
 #include "watering_can.h"
+#include "Flower.h"
 
 bool Generator::Update(Scene &scene, float dt) {
   // Accumulate time
@@ -16,8 +15,8 @@ bool Generator::Update(Scene &scene, float dt) {
             continue;
 
         // We only need to collide with flowers, ignore other objects
-        auto flower = std::dynamic_pointer_cast<Flower_head>(obj);
-        if (!flower) continue;
+        auto flow = std::dynamic_pointer_cast<Flower>(obj);
+        if (!flow) continue;
 
         flowers++;
     }
@@ -35,7 +34,6 @@ bool Generator::Update(Scene &scene, float dt) {
         scene.objects.push_back(obj);
     }
 
-    //flowers_history = flowers;
 
   return true;
 }
@@ -44,19 +42,8 @@ void Generator::generateFlowers(Scene &scene) {
     if ( generated < 5) {
         generated++;
 
-        auto obj = Flower_headPtr(new Flower_head());
-        obj->position = this->position;
-        obj->position.x += Rand(-9, 9); obj->position.y += Rand(-17,-0.75);
-        obj->position.z = -7;
+        auto obj = FlowerPtr(new Flower(position.x + Rand(-9,9), position.y + Rand(-17,-0.75), -7));
         scene.objects.push_back(obj);
-
-
-        auto obj1 = Flower_stemPtr(new Flower_stem());
-        obj1->position = this->position;
-        obj1->position.x = obj->position.x;
-        obj1->position.y = obj->position.y;
-        obj1->position.z = -7;
-        scene.objects.push_back(obj1);
 
         time = 0;
         flowers_history++;

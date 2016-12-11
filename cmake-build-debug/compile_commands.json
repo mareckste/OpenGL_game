@@ -126,6 +126,11 @@
 },
 {
   "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
+  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\Flower.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\Flower.cpp",
+  "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/Flower.cpp"
+},
+{
+  "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
   "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_framebuffer.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_framebuffer.dir\\src\\gl_framebuffer\\gl_framebuffer.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_framebuffer\\gl_framebuffer.cpp",
   "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_framebuffer/gl_framebuffer.cpp"
 },

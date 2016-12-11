@@ -719,6 +719,12 @@
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_projection/surface.h">
 			<Option target="gl_projection"/>
 		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/Flower.cpp">
+			<Option target="gl_scene"/>
+		</Unit>
+		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/Flower.h">
+			<Option target="gl_scene"/>
+		</Unit>
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/bee.cpp">
 			<Option target="gl_scene"/>
 		</Unit>

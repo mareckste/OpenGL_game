@@ -498,6 +498,33 @@ src/gl_projection/surface.cpp.s:
 	$(MAKE) -f CMakeFiles\gl_projection.dir\build.make CMakeFiles/gl_projection.dir/src/gl_projection/surface.cpp.s
 .PHONY : src/gl_projection/surface.cpp.s
 
+src/gl_scene/Flower.obj: src/gl_scene/Flower.cpp.obj
+
+.PHONY : src/gl_scene/Flower.obj
+
+# target to build an object file
+src/gl_scene/Flower.cpp.obj:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/Flower.cpp.obj
+.PHONY : src/gl_scene/Flower.cpp.obj
+
+src/gl_scene/Flower.i: src/gl_scene/Flower.cpp.i
+
+.PHONY : src/gl_scene/Flower.i
+
+# target to preprocess a source file
+src/gl_scene/Flower.cpp.i:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/Flower.cpp.i
+.PHONY : src/gl_scene/Flower.cpp.i
+
+src/gl_scene/Flower.s: src/gl_scene/Flower.cpp.s
+
+.PHONY : src/gl_scene/Flower.s
+
+# target to generate assembly for a file
+src/gl_scene/Flower.cpp.s:
+	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/Flower.cpp.s
+.PHONY : src/gl_scene/Flower.cpp.s
+
 src/gl_scene/bee.obj: src/gl_scene/bee.cpp.obj
 
 .PHONY : src/gl_scene/bee.obj
@@ -1083,6 +1110,9 @@ help:
 	@echo ... src/gl_projection/surface.obj
 	@echo ... src/gl_projection/surface.i
 	@echo ... src/gl_projection/surface.s
+	@echo ... src/gl_scene/Flower.obj
+	@echo ... src/gl_scene/Flower.i
+	@echo ... src/gl_scene/Flower.s
 	@echo ... src/gl_scene/bee.obj
 	@echo ... src/gl_scene/bee.i
 	@echo ... src/gl_scene/bee.s
