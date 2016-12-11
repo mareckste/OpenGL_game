@@ -13,6 +13,7 @@ public:
     void Render(Scene &scene) override;
     glm::vec3 positionManager(float dt);
     glm::vec3 linInt(glm::vec3 a, glm::vec3 b, float t);
+    void generateFlowers(Scene &scene);
 
 
 private:

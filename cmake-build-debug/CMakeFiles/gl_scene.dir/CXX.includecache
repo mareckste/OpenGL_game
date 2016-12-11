@@ -1221,6 +1221,12 @@ object_frag.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_frag.h
 object_vert.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_vert.h
+flower_stem.h
+C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_stem.h
+flower_head.h
+C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_head.h
+generator.h
+C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/generator.h
 
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/watering_can.h
 mesh.h

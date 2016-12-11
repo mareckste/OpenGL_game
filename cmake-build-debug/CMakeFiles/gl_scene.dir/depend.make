@@ -1377,6 +1377,9 @@ CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/lib/texture.h
 CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/lib/tiny_obj_loader.h
 CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/gl_scene/camera.h
 CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/gl_scene/explosion.h
+CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/gl_scene/flower_head.h
+CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/gl_scene/flower_stem.h
+CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/gl_scene/generator.h
 CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/gl_scene/object.h
 CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/gl_scene/player.h
 CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj: ../src/gl_scene/scene.h

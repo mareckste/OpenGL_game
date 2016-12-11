@@ -25,11 +25,9 @@ public:
 
 private:
     // Delay fire and fire rate
-    float fireDelay;
-    float fireRate;
     bool flip = false;
     float time = 0;
-    glm::vec3 fireOffset;
+
 
     // Static resources (Shared between instances)
     static MeshPtr mesh;

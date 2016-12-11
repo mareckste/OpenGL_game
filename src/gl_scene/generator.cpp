@@ -22,16 +22,18 @@ bool Generator::Update(Scene &scene, float dt) {
 
         flowers++;
     }
-    if (abs(flowers_history - flowers) == 2) {
+    if (abs(flowers_history - flowers) > 1) {
         flowers_history = flowers;
-        generated -= 2;
-      //  generateFlowers(scene);
-//       auto obj = CanPtr(new watering_can());
-  //      obj->position = this->position;
-    //    obj->position.x += Rand(-9, 9); /*obj->position.y += Rand(-17,-0.75);*/
-      //  obj->position.z = -12.3f;
-        //obj1->position.y += Rand(-20, 20);
-        //scene.objects.push_back(obj);*/
+
+        glm::vec3 points[4];
+        points[0] = glm::vec3(Rand(-9, 9),6.63f,-12.3f);
+        points[1] = glm::vec3(Rand(-9, 9),Rand(-4.0f,5.0f),-12.3f);
+        points[2] = glm::vec3(Rand(-9, 9),Rand(-7.0f,-4.0f),-12.3f);
+        points[3] = glm::vec3(Rand(-9, 9),-11,-12.3f);
+
+        auto obj = CanPtr(new watering_can(points));
+        obj->position = this->position;
+        scene.objects.push_back(obj);
     }
 
     //flowers_history = flowers;
@@ -42,19 +44,21 @@ bool Generator::Update(Scene &scene, float dt) {
 void Generator::generateFlowers(Scene &scene) {
     if ( generated < 5) {
         generated++;
+
         auto obj = Flower_headPtr(new Flower_head());
         obj->position = this->position;
         obj->position.x += Rand(-9, 9); obj->position.y += Rand(-17,-0.75);
         obj->position.z = -7;
-        //obj1->position.y += Rand(-20, 20);
         scene.objects.push_back(obj);
+
+
         auto obj1 = Flower_stemPtr(new Flower_stem());
         obj1->position = this->position;
         obj1->position.x = obj->position.x;
         obj1->position.y = obj->position.y;
         obj1->position.z = -7;
-        //obj1->position.y += Rand(-20, 20);
         scene.objects.push_back(obj1);
+
         time = 0;
         flowers_history++;
     }

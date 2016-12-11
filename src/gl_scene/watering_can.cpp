@@ -5,9 +5,12 @@
 #include "player.h"
 #include "object_frag.h"
 #include "object_vert.h"
+#include "flower_stem.h"
+#include "flower_head.h"
+#include "generator.h"
 
 watering_can::watering_can(glm::vec3 wp[4]) {
-    walkPath[0] = wp[0];walkPath[1] = wp[1];walkPath[2] = wp[2];walkPath[3] = wp[3];
+    walkPath[0] = wp[0]; walkPath[1] = wp[1]; walkPath[2] = wp[2]; walkPath[3] = wp[3];
 
     //  scale *= 10.0f;
     scale /=24.0f;
@@ -23,31 +26,37 @@ watering_can::~watering_can() {
 }
 
 bool watering_can::Update(Scene &scene, float dt) {
-
-    //position = positionManager(dt);
-    // Count time alive
-    /*age += dt;
-    if (age < maxAge)
-        scale += dt*0.02;*/
-    // Generate modelMatrix from position, rotation and scale
+    if (position.y < -9)
+        return false;
+    position = positionManager(dt);
 
 
+    std::cout << position.y << std::endl;
+    bool flag = false;
+    GeneratorPtr generator;
     for ( auto obj : scene.objects ) {
         // Ignore self in scene
         if (obj.get() == this)
             continue;
-
+        if (!flag)
+            generator = std::dynamic_pointer_cast<Generator>(obj);
+        if (generator) flag = true;
         // We only need to collide with flowers, ignore other objects
         auto player = std::dynamic_pointer_cast<Player>(obj);
         if (!player) continue;
 
         if ((fabs(player->position.x - position.x) < .8) && (fabs(player->position.y - position.y) < .8) ) {
             // Explode
+            generator->flowers_history += 2;
 
             auto explosion = ExplosionPtr(new Explosion{});
-            explosion->position = this->position;
-            explosion->scale *=  1.5f;
+            explosion->position = player->position;
+            explosion->scale *=  1.2f;
             scene.objects.push_back(explosion);
+
+            generateFlowers(scene);
+            generateFlowers(scene);
+
             return false;
         }
     }
@@ -73,8 +82,25 @@ void watering_can::Render(Scene &scene) {
     mesh->Render();
 }
 
+void watering_can::generateFlowers(Scene &scene) {
+
+        auto obj = Flower_headPtr(new Flower_head());
+        obj->position = glm::vec3(0,0,0);
+        obj->position.x += Rand(-9, 9); obj->position.y += Rand(-6.5f,9);
+        obj->position.z = -7;
+        scene.objects.push_back(obj);
+
+        auto obj1 = Flower_stemPtr(new Flower_stem());
+        obj1->position = glm::vec3(0,0,0);
+        obj1->position.x = obj->position.x;
+        obj1->position.y = obj->position.y;
+        obj1->position.z = -7;
+        scene.objects.push_back(obj1);
+
+}
+
 glm::vec3 watering_can::positionManager(float dt) {
-    walkTime += 0.1*dt;
+    walkTime += 0.55f*dt;
     if(walkTime >= 1){
         walkTime = 0.0f;
         walkPointer = (walkPointer + 1) % 4;

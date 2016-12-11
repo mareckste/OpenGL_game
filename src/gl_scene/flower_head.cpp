@@ -42,7 +42,7 @@ bool Flower_head::Update(Scene &scene, float dt) {
             // Explode
 
             auto explosion = ExplosionPtr(new Explosion{});
-            explosion->position = this->position;
+            explosion->position = player->position;
             explosion->scale *=  1.5f;
             scene.objects.push_back(explosion);
             return false;
