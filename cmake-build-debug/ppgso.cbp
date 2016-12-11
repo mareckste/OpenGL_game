@@ -719,12 +719,6 @@
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_projection/surface.h">
 			<Option target="gl_projection"/>
 		</Unit>
-		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.cpp">
-			<Option target="gl_scene"/>
-		</Unit>
-		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.h">
-			<Option target="gl_scene"/>
-		</Unit>
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/camera.cpp">
 			<Option target="gl_scene"/>
 		</Unit>
@@ -776,22 +770,10 @@
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/player.h">
 			<Option target="gl_scene"/>
 		</Unit>
-		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.cpp">
-			<Option target="gl_scene"/>
-		</Unit>
-		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.h">
-			<Option target="gl_scene"/>
-		</Unit>
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.cpp">
 			<Option target="gl_scene"/>
 		</Unit>
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.h">
-			<Option target="gl_scene"/>
-		</Unit>
-		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.cpp">
-			<Option target="gl_scene"/>
-		</Unit>
-		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.h">
 			<Option target="gl_scene"/>
 		</Unit>
 		<Unit filename="C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/watering_can.cpp">

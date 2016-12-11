@@ -208,7 +208,7 @@ clean: CMakeFiles/gl_animate.dir/clean
 CMakeFiles/raw_gradient.dir/all:
 	$(MAKE) -f CMakeFiles\raw_gradient.dir\build.make CMakeFiles/raw_gradient.dir/depend
 	$(MAKE) -f CMakeFiles\raw_gradient.dir\build.make CMakeFiles/raw_gradient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=63,64 "Built target raw_gradient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=60,61 "Built target raw_gradient"
 .PHONY : CMakeFiles/raw_gradient.dir/all
 
 # Include target in all.
@@ -245,7 +245,7 @@ clean: CMakeFiles/raw_gradient.dir/clean
 CMakeFiles/libppgso.dir/all:
 	$(MAKE) -f CMakeFiles\libppgso.dir\build.make CMakeFiles/libppgso.dir/depend
 	$(MAKE) -f CMakeFiles\libppgso.dir\build.make CMakeFiles/libppgso.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=58,59,60,61,62 "Built target libppgso"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=55,56,57,58,59 "Built target libppgso"
 .PHONY : CMakeFiles/libppgso.dir/all
 
 # Include target in all.
@@ -319,7 +319,7 @@ clean: CMakeFiles/gl_gradient.dir/clean
 CMakeFiles/gl_texture.dir/all: CMakeFiles/libppgso.dir/all
 	$(MAKE) -f CMakeFiles\gl_texture.dir\build.make CMakeFiles/gl_texture.dir/depend
 	$(MAKE) -f CMakeFiles\gl_texture.dir\build.make CMakeFiles/gl_texture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=50,51,52,53 "Built target gl_texture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=47,48,49,50 "Built target gl_texture"
 .PHONY : CMakeFiles/gl_texture.dir/all
 
 # Include target in all.
@@ -356,7 +356,7 @@ clean: CMakeFiles/gl_texture.dir/clean
 CMakeFiles/gl_transform.dir/all: CMakeFiles/libppgso.dir/all
 	$(MAKE) -f CMakeFiles\gl_transform.dir\build.make CMakeFiles/gl_transform.dir/depend
 	$(MAKE) -f CMakeFiles\gl_transform.dir\build.make CMakeFiles/gl_transform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=54,55,56,57 "Built target gl_transform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=51,52,53,54 "Built target gl_transform"
 .PHONY : CMakeFiles/gl_transform.dir/all
 
 # Include target in all.
@@ -393,7 +393,7 @@ clean: CMakeFiles/gl_transform.dir/clean
 CMakeFiles/gl_scene.dir/all: CMakeFiles/libppgso.dir/all
 	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/depend
 	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target gl_scene"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles --progress-num=28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46 "Built target gl_scene"
 .PHONY : CMakeFiles/gl_scene.dir/all
 
 # Include target in all.
@@ -403,7 +403,7 @@ all: CMakeFiles/gl_scene.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gl_scene.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles 24
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/gl_scene.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\stevu\Downloads\ppgso-master\ppgso-master\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/gl_scene.dir/rule

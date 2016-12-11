@@ -940,34 +940,6 @@ vector
 map
 -
 
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.cpp
-asteroid.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.h
-projectile.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.h
-explosion.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/explosion.h
-object_frag.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_frag.h
-object_vert.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_vert.h
-
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.h
-memory
--
-GL/glew.h
--
-scene.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.h
-object.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.h
-mesh.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/mesh.h
-texture.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/texture.h
-shader.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/shader.h
-
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/camera.cpp
 glm/gtc/matrix_transform.hpp
 -
@@ -1059,8 +1031,6 @@ C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/generator.cpp
 generator.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/generator.h
-asteroid.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.h
 flower_head.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_head.h
 flower_stem.h
@@ -1091,8 +1061,6 @@ GLFW/glfw3.h
 -
 scene.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.h
-camera.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/camera.h
 field.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/field.h
 generator.h
@@ -1101,12 +1069,6 @@ player.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/player.h
 wings.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/wings.h
-flower_stem.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_stem.h
-flower_head.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_head.h
-space.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.h
 
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.cpp
 glm/gtc/matrix_transform.hpp
@@ -1135,16 +1097,12 @@ player.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/player.h
 scene.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.h
-flower_head.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_head.h
-projectile.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.h
-explosion.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/explosion.h
 object_frag.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_frag.h
 object_vert.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_vert.h
+flower_head.h
+C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_head.h
 GLFW/glfw3.h
 -
 
@@ -1155,24 +1113,6 @@ shader.h
 -
 mesh.h
 -
-object.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.h
-
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.cpp
-scene.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.h
-projectile.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.h
-object_vert.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_vert.h
-object_frag.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_frag.h
-
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.h
-shader.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/shader.h
-mesh.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/mesh.h
 object.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.h
 
@@ -1191,22 +1131,6 @@ object.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.h
 camera.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/camera.h
-
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.cpp
-space.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.h
-scene.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.h
-space_vert.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space_vert.h
-space_frag.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space_frag.h
-
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.h
-mesh.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/mesh.h
-object.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.h
 
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/watering_can.cpp
 watering_can.h
@@ -1239,18 +1163,12 @@ wings.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/wings.h
 scene.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.h
-asteroid.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.h
-flower_head.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_head.h
-projectile.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.h
-explosion.h
-C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/explosion.h
 object_frag.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_frag.h
 object_vert.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object_vert.h
+flower_head.h
+C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/flower_head.h
 GLFW/glfw3.h
 -
 
@@ -1277,14 +1195,6 @@ string
 -
 
 object_vert.h
-string
--
-
-space_frag.h
-string
--
-
-space_vert.h
 string
 -
 

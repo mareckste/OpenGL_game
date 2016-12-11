@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/asteroid.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/camera.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/camera.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/explosion.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/explosion.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/field.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/field.cpp.obj"
@@ -14,9 +13,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/gl_scene.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/gl_scene.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/object.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/object.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/player.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.obj"
-  "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/projectile.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/scene.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/scene.cpp.obj"
-  "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/space.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/watering_can.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/watering_can.cpp.obj"
   "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/wings.cpp" "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug/CMakeFiles/gl_scene.dir/src/gl_scene/wings.cpp.obj"
   )

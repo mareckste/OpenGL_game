@@ -1,22 +1,15 @@
 #include "player.h"
 #include "scene.h"
-#include "flower_head.h"
-#include "projectile.h"
-#include "explosion.h"
-
 #include "object_frag.h"
 #include "object_vert.h"
+#include "flower_head.h"
 
 #include <GLFW/glfw3.h>
 
 Player::Player() {
   position.z = -9.8f;
   // Reset fire delay
-  fireDelay = 0;
-  // Set the rate of fire
-  fireRate = 0.3f;
-  // Fire offset;
-  fireOffset = glm::vec3(0.7f,0.0f,0.0f);
+
 
   // Scale the default model
   scale *= 65.0f;
@@ -32,13 +25,20 @@ Player::~Player() {
 }
 
 bool Player::Update(Scene &scene, float dt) {
+  int flowers = 0;
+  for ( auto obj : scene.objects ) {
+    // Ignore self in scene
+    if (obj.get() == this)
+      continue;
 
+    // We only need to collide with flowers, ignore other objects
+    auto flower = std::dynamic_pointer_cast<Flower_head>(obj);
+    if (!flower) continue;
 
+    flowers++;
+  }
 
-  // Fire delay increment
-  fireDelay += dt;
-
-  // Hit detection
+  if (!flowers) return false;
 
 
   // Keyboard controls
@@ -63,17 +63,7 @@ bool Player::Update(Scene &scene, float dt) {
     rotation.z = 0;
   }
 
-  // Firing projectiles
-  if(scene.keyboard[GLFW_KEY_SPACE] && fireDelay > fireRate) {
-    // Reset fire delay
-    fireDelay = 0;
-    // Invert file offset
-    fireOffset = -fireOffset;
 
-    auto projectile = ProjectilePtr(new Projectile{});
-    projectile->position = position + glm::vec3(0.0f, 0.0f, 0.3f) + fireOffset;
-    scene.objects.push_back(projectile);
-  }
 
   GenerateModelMatrix();
   return true;

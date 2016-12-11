@@ -1,5 +1,4 @@
 #include "generator.h"
-#include "asteroid.h"
 #include "flower_head.h"
 #include "flower_stem.h"
 #include "watering_can.h"

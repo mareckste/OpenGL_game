@@ -81,11 +81,6 @@
 },
 {
   "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
-  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\asteroid.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\asteroid.cpp",
-  "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/asteroid.cpp"
-},
-{
-  "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
   "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\generator.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\generator.cpp",
   "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/generator.cpp"
 },
@@ -96,18 +91,8 @@
 },
 {
   "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
-  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\projectile.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\projectile.cpp",
-  "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/projectile.cpp"
-},
-{
-  "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
   "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\explosion.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\explosion.cpp",
   "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/explosion.cpp"
-},
-{
-  "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",
-  "command": "C:\\TDM-GCC-64\\bin\\g++.exe   -DGLEW_STATIC -DGLM_FORCE_RADIANS @CMakeFiles/gl_scene.dir/includes_CXX.rsp -g -Wpedantic -Wall -Wno-c++98-compat -Wfloat-equal -Wextra -Wsign-promo -Wsign-compare -Wconversion -Wno-sign-conversion -Wno-unused-parameter   -std=gnu++11 -o CMakeFiles\\gl_scene.dir\\src\\gl_scene\\space.cpp.obj -c C:\\Users\\stevu\\Downloads\\ppgso-master\\ppgso-master\\src\\gl_scene\\space.cpp",
-  "file": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/space.cpp"
 },
 {
   "directory": "C:/Users/stevu/Downloads/ppgso-master/ppgso-master/cmake-build-debug",

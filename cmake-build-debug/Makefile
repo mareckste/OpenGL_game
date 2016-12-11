@@ -498,33 +498,6 @@ src/gl_projection/surface.cpp.s:
 	$(MAKE) -f CMakeFiles\gl_projection.dir\build.make CMakeFiles/gl_projection.dir/src/gl_projection/surface.cpp.s
 .PHONY : src/gl_projection/surface.cpp.s
 
-src/gl_scene/asteroid.obj: src/gl_scene/asteroid.cpp.obj
-
-.PHONY : src/gl_scene/asteroid.obj
-
-# target to build an object file
-src/gl_scene/asteroid.cpp.obj:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/asteroid.cpp.obj
-.PHONY : src/gl_scene/asteroid.cpp.obj
-
-src/gl_scene/asteroid.i: src/gl_scene/asteroid.cpp.i
-
-.PHONY : src/gl_scene/asteroid.i
-
-# target to preprocess a source file
-src/gl_scene/asteroid.cpp.i:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/asteroid.cpp.i
-.PHONY : src/gl_scene/asteroid.cpp.i
-
-src/gl_scene/asteroid.s: src/gl_scene/asteroid.cpp.s
-
-.PHONY : src/gl_scene/asteroid.s
-
-# target to generate assembly for a file
-src/gl_scene/asteroid.cpp.s:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/asteroid.cpp.s
-.PHONY : src/gl_scene/asteroid.cpp.s
-
 src/gl_scene/camera.obj: src/gl_scene/camera.cpp.obj
 
 .PHONY : src/gl_scene/camera.obj
@@ -768,33 +741,6 @@ src/gl_scene/player.cpp.s:
 	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/player.cpp.s
 .PHONY : src/gl_scene/player.cpp.s
 
-src/gl_scene/projectile.obj: src/gl_scene/projectile.cpp.obj
-
-.PHONY : src/gl_scene/projectile.obj
-
-# target to build an object file
-src/gl_scene/projectile.cpp.obj:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/projectile.cpp.obj
-.PHONY : src/gl_scene/projectile.cpp.obj
-
-src/gl_scene/projectile.i: src/gl_scene/projectile.cpp.i
-
-.PHONY : src/gl_scene/projectile.i
-
-# target to preprocess a source file
-src/gl_scene/projectile.cpp.i:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/projectile.cpp.i
-.PHONY : src/gl_scene/projectile.cpp.i
-
-src/gl_scene/projectile.s: src/gl_scene/projectile.cpp.s
-
-.PHONY : src/gl_scene/projectile.s
-
-# target to generate assembly for a file
-src/gl_scene/projectile.cpp.s:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/projectile.cpp.s
-.PHONY : src/gl_scene/projectile.cpp.s
-
 src/gl_scene/scene.obj: src/gl_scene/scene.cpp.obj
 
 .PHONY : src/gl_scene/scene.obj
@@ -821,33 +767,6 @@ src/gl_scene/scene.s: src/gl_scene/scene.cpp.s
 src/gl_scene/scene.cpp.s:
 	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/scene.cpp.s
 .PHONY : src/gl_scene/scene.cpp.s
-
-src/gl_scene/space.obj: src/gl_scene/space.cpp.obj
-
-.PHONY : src/gl_scene/space.obj
-
-# target to build an object file
-src/gl_scene/space.cpp.obj:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/space.cpp.obj
-.PHONY : src/gl_scene/space.cpp.obj
-
-src/gl_scene/space.i: src/gl_scene/space.cpp.i
-
-.PHONY : src/gl_scene/space.i
-
-# target to preprocess a source file
-src/gl_scene/space.cpp.i:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/space.cpp.i
-.PHONY : src/gl_scene/space.cpp.i
-
-src/gl_scene/space.s: src/gl_scene/space.cpp.s
-
-.PHONY : src/gl_scene/space.s
-
-# target to generate assembly for a file
-src/gl_scene/space.cpp.s:
-	$(MAKE) -f CMakeFiles\gl_scene.dir\build.make CMakeFiles/gl_scene.dir/src/gl_scene/space.cpp.s
-.PHONY : src/gl_scene/space.cpp.s
 
 src/gl_scene/watering_can.obj: src/gl_scene/watering_can.cpp.obj
 
@@ -1137,9 +1056,6 @@ help:
 	@echo ... src/gl_projection/surface.obj
 	@echo ... src/gl_projection/surface.i
 	@echo ... src/gl_projection/surface.s
-	@echo ... src/gl_scene/asteroid.obj
-	@echo ... src/gl_scene/asteroid.i
-	@echo ... src/gl_scene/asteroid.s
 	@echo ... src/gl_scene/camera.obj
 	@echo ... src/gl_scene/camera.i
 	@echo ... src/gl_scene/camera.s
@@ -1167,15 +1083,9 @@ help:
 	@echo ... src/gl_scene/player.obj
 	@echo ... src/gl_scene/player.i
 	@echo ... src/gl_scene/player.s
-	@echo ... src/gl_scene/projectile.obj
-	@echo ... src/gl_scene/projectile.i
-	@echo ... src/gl_scene/projectile.s
 	@echo ... src/gl_scene/scene.obj
 	@echo ... src/gl_scene/scene.i
 	@echo ... src/gl_scene/scene.s
-	@echo ... src/gl_scene/space.obj
-	@echo ... src/gl_scene/space.i
-	@echo ... src/gl_scene/space.s
 	@echo ... src/gl_scene/watering_can.obj
 	@echo ... src/gl_scene/watering_can.i
 	@echo ... src/gl_scene/watering_can.s

@@ -1,12 +1,8 @@
 #include "wings.h"
 #include "scene.h"
-#include "asteroid.h"
-#include "flower_head.h"
-#include "projectile.h"
-#include "explosion.h"
-
 #include "object_frag.h"
 #include "object_vert.h"
+#include "flower_head.h"
 
 #include <GLFW/glfw3.h>
 
@@ -30,7 +26,20 @@ Wings::~Wings() {
 bool Wings::Update(Scene &scene, float dt) {
     // Fire delay increment
     time += dt;
+    int flowers;
+    for ( auto obj : scene.objects ) {
+        // Ignore self in scene
+        if (obj.get() == this)
+            continue;
 
+        // We only need to collide with flowers, ignore other objects
+        auto flower = std::dynamic_pointer_cast<Flower_head>(obj);
+        if (!flower) continue;
+
+        flowers++;
+    }
+
+    if (!flowers) return false;
 
     // Keyboard controls
     if(scene.keyboard[GLFW_KEY_LEFT] && position.x <= 9 ) {
