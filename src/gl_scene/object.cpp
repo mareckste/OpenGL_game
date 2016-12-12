@@ -18,6 +18,7 @@ void Object::GenerateModelMatrix() {
           glm::translate(glm::mat4(1.0f), position)
           * glm::orientate4(rotation)
           * glm::scale(glm::mat4(1.0f), scale);
+
 }
 
 float Object::Rand(float min, float max) {

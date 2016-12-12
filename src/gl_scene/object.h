@@ -21,6 +21,10 @@ class Object {
 public:
   Object();
   virtual ~Object();
+    glm::vec3 pointLightPositions[2] = {
+            glm::vec3(-9.0f, -10.0f,-11 /*-12.75f*/),
+            glm::vec3(9.0f, 10.0f,-11/* -12.75f*/)
+    };
 
   // Primary interface Update should update the objects modelMatrix and return true
   // If update returns false than the object will be removed from the scene
@@ -28,6 +32,7 @@ public:
 
   // Render needs to gernerate geometry using the modelMatrix and camera from scene
   virtual void Render(Scene &scene) = 0;
+
 
   // Object properties
   glm::vec3 position;

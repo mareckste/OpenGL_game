@@ -20,6 +20,9 @@ public:
 
     bool Update(Scene &scene, float dt) override;
     void Render(Scene &scene) override;
+    void applyLight(glm::vec3 *pointLightPositions, int i, float linModifier, float quadModifier);
+
+    static ShaderPtr shader;
 
 private:
     // Delay fire and fire rate
@@ -29,7 +32,6 @@ private:
 
     // Static resources (Shared between instances)
     static MeshPtr mesh;
-    static ShaderPtr shader;
     static TexturePtr texture;
 };
 typedef std::shared_ptr< Wings > WingsPtr;

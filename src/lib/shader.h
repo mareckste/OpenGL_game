@@ -23,6 +23,8 @@ public:
 
   GLuint GetProgram();
 
+    GLuint program;
+
   void SetFloat(float value, const std::string &name);
   void SetVector(glm::vec2 vector, const std::string &name);
   void SetVector(glm::vec3 vector, const std::string &name);
@@ -31,7 +33,7 @@ public:
   void SetMatrix(glm::mat4 matrix, const std::string &name);
   void SetMatrix(glm::mat3 matrix, const std::string &name);
 private:
-  GLuint program;
+
 };
 typedef std::shared_ptr< Shader > ShaderPtr;
 

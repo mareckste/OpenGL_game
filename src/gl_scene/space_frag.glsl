@@ -13,3 +13,4 @@ void main() {
   // Lookup the color in Texture on coordinates given by fragTexCoord
   FragmentColor = texture(Texture, FragTexCoord+vec2(0, Offset));
 }
+*/
