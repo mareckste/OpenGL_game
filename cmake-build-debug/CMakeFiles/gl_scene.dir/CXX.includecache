@@ -969,6 +969,10 @@ GLFW/glfw3.h
 -
 Flower.h
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/Flower.h
+watering_can.h
+C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/watering_can.h
+explosion.h
+C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/explosion.h
 
 C:/Users/stevu/Downloads/ppgso-master/ppgso-master/src/gl_scene/bee.h
 texture.h

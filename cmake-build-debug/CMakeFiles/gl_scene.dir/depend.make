@@ -203,10 +203,12 @@ CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/bee.cpp
 CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/bee.h
 CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/body.h
 CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/camera.h
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/explosion.h
 CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/flower_head.h
 CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/flower_stem.h
 CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/object.h
 CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/scene.h
+CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/watering_can.h
 CMakeFiles/gl_scene.dir/src/gl_scene/bee.cpp.obj: ../src/gl_scene/wings.h
 
 CMakeFiles/gl_scene.dir/src/gl_scene/body.cpp.obj: ../dependencies/include/GL/glew.h

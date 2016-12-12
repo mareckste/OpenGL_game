@@ -11,9 +11,7 @@
 #include "flower_head.h"
 #include "flower_stem.h"
 
-// This object renders the scene background
-// It does not use the camera so it uses different shader program
-// Background animation is achieved by passing an offset to the fragment shader that offsets texture mapping
+
 class Flower : public Object {
 public:
     Flower(float x, float y, float z);

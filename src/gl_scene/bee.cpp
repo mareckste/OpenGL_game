@@ -6,6 +6,8 @@
 #include "scene.h"
 #include <GLFW/glfw3.h>
 #include "Flower.h"
+#include "watering_can.h"
+#include "explosion.h"
 
 
 bee::bee(float y, float z) {
@@ -26,11 +28,19 @@ bee::~bee() {
 
 bool bee::Update(Scene &scene, float dt) {
 
-    if (!isFlower(scene)) return  false;
+    if (!isFlower(scene)) {
+        auto explosion = ExplosionPtr(new Explosion{});
+        explosion->position = position;
+        explosion->scale *=  1.5f;
+        scene.objects.push_back(explosion);
+        return  false;
+    }
 
     time += dt;
+    time_1 += dt;
 
-    int c = 1;
+    float c = 1.0f;
+
 
     if(scene.keyboard[GLFW_KEY_LEFT] && position.x <= 9 ) {
         position.x += 5 * dt;
@@ -41,7 +51,7 @@ bool bee::Update(Scene &scene, float dt) {
         position.x -= 5 * dt;
         rotation.z = PI/4.0f;
         scene.camera->position.x -= 0.05f;
-        c = 2;
+        c = 2.0f;
     } else if(scene.keyboard[GLFW_KEY_UP] && position.y <= 10) {
         rotation = glm::vec3(4.8f, 0.0f, 0.0f);
         position.y += 5 * dt;
@@ -82,18 +92,26 @@ bool bee::Update(Scene &scene, float dt) {
 
 bool bee::isFlower(Scene &scene) {
     int flowers = 0;
+    int cans = 0;
     for ( auto obj : scene.objects ) {
          // Ignore self in scene
          if (obj.get() == this)
              continue;
 
-         // We only need to collide with flowers, ignore other objects
+
+
          auto flow = std::dynamic_pointer_cast<Flower>(obj);
-         if (!flow) continue;
+         if (!flow) {
+
+             auto can = std::dynamic_pointer_cast<watering_can>(obj);
+
+             if (can) cans++;
+             continue;
+         }
 
          flowers++;
     }
-    if (!flowers) return false;
+    if (flowers < 2 && !cans && time_1 > 1.5f) return false;
 
     return true;
  }

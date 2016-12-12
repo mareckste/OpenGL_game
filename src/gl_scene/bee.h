@@ -14,9 +14,7 @@
 
 #include "object.h"
 
-// Simple object representing the player
-// Reads keyboard status and manipulates its own position
-// On Update checks collisions with Asteroid objects in the scene
+
 class bee : public Object {
 public:
     bee(float y, float z);
@@ -32,6 +30,7 @@ private:
     PlayerPtr player;
     WingsPtr wings;
     float time = 0;
+    float time_1 = 0;
     bool flip = false;
 
     bool isFlower(Scene &scene);

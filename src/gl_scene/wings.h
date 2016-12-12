@@ -12,9 +12,7 @@
 
 #include "object.h"
 
-// Simple object representing the player
-// Reads keyboard status and manipulates its own position
-// On Update checks collisions with Asteroid objects in the scene
+
 class Wings : public Object {
 public:
     Wings();
